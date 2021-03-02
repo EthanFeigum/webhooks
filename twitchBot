@@ -1,0 +1,7 @@
+const Discord = require("discord.js);
+const client = new Discord.Client();
+const mentionHook = new Discord.WebhookClient("336099488869384192", "UT_jumpd9cEi3X7Dxls0pv9_dscvTSB5oDAVHEWhMh2Psz8n0ZwAVr7JjSszfu5z7BGH");
+
+client.on("ready", () => {
+  console.log("I am ready!");
+});
